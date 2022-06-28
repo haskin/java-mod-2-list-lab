@@ -17,10 +17,6 @@ public class Library {
         Library.books.remove(book);
     }
 
-    public static void getBook(Book book) {
-        Library.books.remove(book);
-    }
-
     public static List<Book> getLibrary() {
         return Library.books;
     }
