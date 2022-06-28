@@ -12,7 +12,6 @@ public class Main {
     }
 
     public static void getUserBooks() {
-        String finishedPrompt = "Are you done adding books(Y/n): ";
         try (Scanner scanner = new Scanner(System.in)) {
             while (true) {
                 String title = "", genre = "";
